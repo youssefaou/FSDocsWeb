@@ -9,6 +9,9 @@ var routes = require('./routes/index');
 
 var app = express();
 
+var mysql = require('mysql');
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -21,7 +24,17 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/test',function(req,res){
+  connection = mysql.createConnection({ host: 'localhost', user: 'root', password: '', database: 'fsdocs' });
+  connection.connect();
+  connection.query("select * from professeur",function(err,rows){
+      res.send(rows);
+  });
+  connection.end();
+});
+
 app.use('/', routes);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
