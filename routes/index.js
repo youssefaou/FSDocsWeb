@@ -1,9 +1,17 @@
+// the leader of the orchestra
+
 var express = require('express');
 var router = express.Router();
+var db = require('../database/main');
 
+router.get('/',function(req,res){
+    res.render('index');
+});
 
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'FSDocs ', content : 'Where we fuck docs' });
+router.get('/test',function(req,res){
+    db.connect();
+    db.test(req,res);
+    db.close();
 });
 
 module.exports = router;
