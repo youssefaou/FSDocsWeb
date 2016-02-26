@@ -24,10 +24,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+var DBconfig = require("./config/database").database;
+
 app.get('/test',function(req,res){
-  connection = mysql.createConnection({ host: 'localhost', user: 'root', password: '', database: 'fsdocs' });
-  connection.connect();
+  connection = mysql.createConnection({ host: DBconfig.hosturl, user: DBconfig.username , password: DBconfig.password , database: DBconfig.schema });
+  connection.connect(function(err){
+    if(err) throw err;
+  });
   connection.query("select * from professeur",function(err,rows){
+    if(err) throw err;
       res.send(rows);
   });
   connection.end();
