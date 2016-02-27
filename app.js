@@ -28,6 +28,79 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+/*---------------------CSS---------------------------------------*/
+app.get('*/css/zurb-fondation.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/zurb-fondation.css');
+});
+app.get('*/css/color.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/color.css');
+});
+app.get('*/css/transitions.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/transitions.css');
+});
+app.get('*/css/bootstrap.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/bootstrap.css');
+});
+app.get('*/css/bootstrap-responsive.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/bootstrap-responsive.css');
+});
+app.get('*/css/font-awesome.min.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/font-awesome.min.css');
+});
+/*----------------------JS--------------------------------------*/
+app.get('*/js/jquery-1.11.0.min.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/jquery-1.11.0.min.js');
+});
+app.get('*/js/bootstrap.min.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/bootstrap.min.js');
+});
+app.get('*/js/jquery.bxslider.min.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/jquery.bxslider.min.js');
+});
+app.get('*/js/owl.carousel.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/owl.carousel.js');
+});
+app.get('*/js/modernizr.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/modernizr.js');
+});
+app.get('*/js/skrollr.min.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/skrollr.min.js');
+});
+app.get('*/js/functions.js', function(req, res){
+  res.sendFile(__dirname + '/public/js/functions.js');
+});
+/*------------------------IMAGES------------------------------------*/
+app.get('*/images/logo.png', function(req, res){
+  res.sendFile(__dirname + '/public/images/logo.png');
+});
+app.get('*/images/cate-bg.png', function(req, res){
+  res.sendFile(__dirname + '/public/images/cate-bg.png');
+});
+app.get('*/images/footer-bg.png', function(req, res){
+  res.sendFile(__dirname + '/public/images/footer-bg.png');
+});
+app.get('*/images/pettern.png', function(req, res){
+  res.sendFile(__dirname + '/public/images/pettern.png');
+});
+/*----------------------FONTS--------------------------------------*/
+app.get('*/fonts/FontAwesome.otf', function(req, res){
+  res.sendFile(__dirname + '/public/fonts/FontAwesome.otf');
+});
+app.get('*/fonts/fontawesome-webfont.eot', function(req, res){
+  res.sendFile(__dirname + '/public/fonts/fontawesome-webfont.eot');
+});
+app.get('*/fonts/fontawesome-webfont.svg', function(req, res){
+  res.sendFile(__dirname + '/public/fonts/fontawesome-webfont.svg');
+});
+app.get('*/fonts/fontawesome-webfont.ttf', function(req, res){
+  res.sendFile(__dirname + '/public/fonts/fontawesome-webfont.ttf');
+});
+app.get('*/fonts/fontawesome-webfont.woff', function(req, res){
+  res.sendFile(__dirname + '/public/fonts/fontawesome-webfont.woff');
+});
+/*------------------------------------------------------------*/
+
 app.use('/', router.index);
 app.use('/admin', router.admin);
 app.use('/course', router.course);

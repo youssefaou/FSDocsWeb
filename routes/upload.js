@@ -1,4 +1,4 @@
-// HTTP Router for the FTP Uploading Operation
+// HTTP Router for the FTP Uploading
 
 var express = require('express');
 var router = express.Router();

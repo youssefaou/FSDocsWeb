@@ -1,4 +1,4 @@
-// HTTP Router for the admin operations
+// HTTP Router for the admin
 
 var express = require('express');
 var router = express.Router();

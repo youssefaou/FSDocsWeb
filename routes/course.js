@@ -1,4 +1,4 @@
-// HTTP Router for the course operations
+// HTTP Router for the course
 
 var express = require('express');
 var router = express.Router();

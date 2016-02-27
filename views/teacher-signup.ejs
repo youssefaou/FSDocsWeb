@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FSDocs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/zurb-fondation.css" rel="stylesheet" media="screen">
+    <link href="css/color.css" rel="stylesheet" media="screen">
+    <link href="css/transitions.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="top-strip">
+            <div class="container">
+                <div class="account">
+                    <ul>
+                        <li><a href="#">Sign Out</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" id="account" role="button" data-toggle="dropdown" data-target="#" href="#">
+                                    My Account
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="account">
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">Account Setting</a></li>
+                                    <li><a href="#">Facs</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-bar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="cart">
+                    <ul>
+                        <li>
+                            <div class="search-bar"><i class="fa fa-search"></i></div>
+                            <div class="search-box">
+                                <input type="text" class="input-block-level" placeholder="Courses,Teachers,Resources...">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navigation">
+                    <div class="navbar">
+                        <div class="navbar-inner" >
+                            <div class="container">
+                                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="nav-collapse collapse">
+                                    <ul>
+                                        <li><a href="#">Home</a>
+                                            <ul>
+                                                <li><a href="index.html">Sub Tab Here</a></li>
+                                                <li><a href="#">Another One here</a></li>
+                                                <li><a href="#">And Here too</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Tab Here</a></li>
+                                        <li><a href="#">Another One</a></li>
+                                        <li><a href="#">And Here</a></li>
+                                        <li><a href="#">AboutUs</a></li>
+                                        <li><a href="#">ContactUs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="page-heading bg-color">
+        <div class="container">
+            <h2>Teacher SignUp</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+            <% if(err) { %>  <div class="pull-right"> <%= err %></div> <% } %>
+        </div>
+    </div>
+    <div class="contant">
+        <div class="container">
+            <div class="buttons pull-left">
+                <button class="btn1 login-btn pull-left"><i class="fa fa-facebook"></i>Login with Facebook</button>
+                <p class=" text-success pull-left"> || </p>
+                <button class="btn2 login-btn pull-left"><i class="fa fa-google-plus"></i>Login with Google</button>
+            </div>
+            <div class="row">
+                <div class="span9">
+                    <div class="form-box">
+                        <form method="post" action="/teacher/signup">
+                            <div class="form-body">
+                                <fieldset>
+                                    <h2>First time here? Sign up now!</h2>
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <label>First Name</label>
+                                            <input type="text" name="fname" placeholder="Enter your First Name" class="input-block-level" required>
+                                        </div>
+                                        <div class="span6">
+                                            <label>Last Name</label>
+                                            <input type="text" name="lname" placeholder="Enter your Last Name" class="input-block-level" required>
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <label>Enter Email</label>
+                                            <input type="email" name="email" placeholder="Enter your E-mail ID" class="input-block-level" required>
+                                        </div>
+                                        <div class="span6">
+                                            <label>Specialite</label>
+                                            <input type="text" name="specialite" placeholder="Enter your Speciality" class="input-block-level" required>
+
+                                        </div>
+                                    </div>
+                                    <div class="row-fluid">
+                                        <div class="span6">
+                                            <label>Choose A Password</label>
+                                            <input type="password"  name="password" placeholder="Choose A Password" class="input-block-level" required>
+                                        </div>
+                                        <div class="span6">
+                                            <label>Confirm Your Password</label>
+                                            <input type="password" name="password2" placeholder="Confirm your password" class="input-block-level" required>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <div class="footer">
+                                <div class="row-fluid">
+                                    <p class="pull-left" data-toggle="tooltip" title="Fuck Terms and Conditions !!">By registering, You accept Terms &amp; Conditions</p>
+                                    <button type="submit" class="btn-style pull-right">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="sidebar">
+                        <div class="widget widget-course-categories">
+                            <h2>Course Categorty</h2>
+                            <ul>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Office Productivity</a></li>
+                                <li><a href="#">IT &amp; Software</a></li>
+                                <li><a href="#">Lifestyle</a></li>
+                                <li><a href="#">Personal Development</a></li>
+                                <li><a href="#">Photography</a></li>
+                                <li><a href="#">Health &amp; Fitness</a></li>
+                                <li><a href="#">Teacher Training</a></li>
+                                <li><a href="#">Music</a></li>
+                                <li><a href="#">Math &amp; Science</a></li>
+                                <li><a href="#">Social Science</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="follow-us">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <div class="follow">
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                                <div class="text">
+                                    <h4>Follow us on Facebook</h4>
+                                    <p>Faucibus toroot menuts</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="follow">
+                            <a href="#">
+                                <i class="fa fa-google"></i>
+                                <div class="text">
+                                    <h4>Follow us on Google Plus</h4>
+                                    <p>Faucibus toroot menuts</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="follow">
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                                <div class="text">
+                                    <h4>Follow us on Linkedin</h4>
+                                    <p>Faucibus toroot menuts</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="tweets">
+            <div class="container">
+                <div class="tweet-contant">
+                    <i class="fa fa-twitter"></i>
+                    <h4>Weekly Quotes</h4>
+                    <ul class="bxslider">
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span4">
+                        <div class="widget widget-categories">
+                            <h2>Course Categories</h2>
+                            <ul>
+                                <li><a href="#">Mathematics</a></li>
+                                <li><a href="#">Physics</a></li>
+                                <li><a href="#">Economics</a></li>
+                                <li><a href="#">Computer Science</a></li>
+                                <li><a href="#">Chemistry</a></li>
+                                <li><a href="#">Biology</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="span5">
+                        <div class="widget widget-newsletter">
+                            <h2>Newsletters</h2>
+                            <div class="newsletter-contant">
+                                <p>Subscribe to be the first to know about new courses !</p>
+                                <p><input type="text" class="input-block-level"></p>
+                                <p><button>Subscribe</button></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span3">
+                        <div class="widget widget-map">
+                            <h2>Where we are?</h2>
+                            <div class="location-map">
+                                <div id="map-canvas"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p>© Copyrights 2015-16. All Rights Reserved <a href="#">FSDocs</a></p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script src="js/functions.js"></script>
+
+</body>
+</html>
