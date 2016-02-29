@@ -3,9 +3,14 @@
 var express = require('express');
 var router = express.Router();
 var indexController = require('../controller/index');
+var utils = require('../utils/session');
 
 router.get('/',function(req,res){
     res.render('index');
+});
+
+router.get('/test',utils.isLoggedIn,function(req,res){
+    res.send('You \'re Logged in Mr : '+ req.session.user.fname);
 });
 
 router.get('/listTeachers',indexController.listTeachers);

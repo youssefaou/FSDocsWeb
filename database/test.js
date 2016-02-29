@@ -12,6 +12,7 @@ exports.listStudents = function (callback) {
 };
 
 exports.listTeachers = function (callback) {
+    var connection = db.getConnection();
     connection.query('select * from professeur', function (err, rows) {
         if (err) return callback(new Error(err));
         else {

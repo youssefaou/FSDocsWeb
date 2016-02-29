@@ -15,8 +15,12 @@ exports.login = function(req,res){
                 throw (err);
             }else{
                 if(user){
+                    // Initialise a new session
+                    var session =  req.session;
+                    session.user = user;
+                    console.log(session.user);
                     res.send("Welcome  Again "+user.type+"  " + user.email);
-                    console.log(user);
+                    //console.log(user);
                 }else{
                     res.render('login',{err : "Wrong Credentials"});
                 }
