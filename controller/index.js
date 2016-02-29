@@ -1,6 +1,7 @@
 // The Controller for the app commons HTTP actions
 
 var db = require('../database/main');
+var dbTest = require('../database/test');
 
 exports.login = function(req,res){
     // the HTTP login POST's accessible for both the Teacher and the Student
@@ -27,20 +28,22 @@ exports.login = function(req,res){
     }
 };
 
+// FOR Test Only :
 exports.listStudents = function(req,res){
     // TEMPORARY FUNCTION : list all students
     db.connect();
-    db.listStudents(function(err,students){
+    dbTest.listStudents(function(err,students){
         if(err) throw  err;
         res.send(JSON.stringify(students));
         db.close();
     });
 };
 
+// FOR Test Only :
 exports.listTeachers = function(req,res){
     // TEMPORARY FUNCTION : list all teachers
     db.connect();
-    db.listTeachers(function(err,teachers){
+    dbTest.listTeachers(function(err,teachers){
         if(err) throw  err;
         res.send(JSON.stringify(teachers));
         db.close();

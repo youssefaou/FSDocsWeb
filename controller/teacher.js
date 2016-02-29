@@ -1,9 +1,11 @@
 // The Controller for the Teacher Entity
 
 var db = require('../database/main');
+var dbTeacher = require('../database/teacher');
 
 exports.signup = function(req,res){
-    if(req.body.fname && req.body.lname && req.body.email && req.body.password && req.body.specialite ){
+    if(req.body.fname && req.body.lname && req.body.email
+        && req.body.password && req.body.specialite ){
         if(req.body.password == req.body.password2){
             var newuser = {
                 lname  : req.body.lname,
@@ -13,7 +15,7 @@ exports.signup = function(req,res){
                 specialite  : req.body.specialite
             };
             db.connect();
-            db.teacherSignUP(newuser,function(err,registred){
+            dbTeacher.signup(newuser,function(err,registred){
                 if(err) { throw err}
                 else{
                     if(registred){
