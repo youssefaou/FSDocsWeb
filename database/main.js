@@ -2,11 +2,11 @@
  * Main File For the Database Communication
  * Holds the connection/close methods
  * Also instance the database configuration
-*/
+ */
 
 var mysql = require('mysql');
 var queries = require('./queries');
-var config = require('../config/database').production;
+var config = require('../config/database').dev;
 // ps : you can toggle between the dev mode / production mode
 
 var connection = null; // the connection object
@@ -35,7 +35,7 @@ exports.close = function() {
  * Login the Current User : Teacher Or Student
  * @param {String} email
  * @param {String} password
- * @return {Object} loggedUser // TODO : Implements Session
+ * @return {Object} loggedUser
  */
 // TODO : Need Separation
 exports.login = function(email,password,callback){

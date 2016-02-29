@@ -18,11 +18,19 @@ exports.login = function(req,res){
                     // Initialise a new session
                     var session =  req.session;
                     session.user = user;
-                    console.log(session.user);
-                    res.send("Welcome  Again "+user.type+"  " + user.email);
+                    if( req.body.device === 'android'){
+                        /* ** */
+                    }else{
+                        console.log(session.user);
+                        res.send("Welcome  Again "+user.type+"  " + user.email);
+                    }
                     //console.log(user);
                 }else{
-                    res.render('login',{err : "Wrong Credentials"});
+                    if(req.body.device === 'android'){
+
+                    }else{
+                        res.render('login',{ err : "Wrong Credentials"});
+                    }
                 }
             }
             db.close();
@@ -32,24 +40,3 @@ exports.login = function(req,res){
     }
 };
 
-// FOR Test Only :
-exports.listStudents = function(req,res){
-    // TEMPORARY FUNCTION : list all students
-    db.connect();
-    dbTest.listStudents(function(err,students){
-        if(err) throw  err;
-        res.send(JSON.stringify(students));
-        db.close();
-    });
-};
-
-// FOR Test Only :
-exports.listTeachers = function(req,res){
-    // TEMPORARY FUNCTION : list all teachers
-    db.connect();
-    dbTest.listTeachers(function(err,teachers){
-        if(err) throw  err;
-        res.send(JSON.stringify(teachers));
-        db.close();
-    });
-};
