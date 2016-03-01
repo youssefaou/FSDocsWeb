@@ -9,7 +9,13 @@
         <%- include('commons/header.ejs'); %>
     </header>
     <div class="page-heading bg-color">
-        <%- include('sign/heading.ejs'); %>
+        <div class="container ">
+            <h2>Teacher SignUp</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+            <% if(err){ %>
+            <div class="pull-right"> <%= err %></div>
+            <% } %>
+        </div>
     </div>
     <div class="contant">
         <div class="container">

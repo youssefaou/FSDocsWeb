@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <%- include('commons/head.ejs') %>
+    <!-- -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" media="screen">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <!-- -->
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <%- include('commons/header.ejs') %>
+    </header>
+    <div class="page-heading bg-color">
+        <div class="container ">
+            <h2>Browse all courses</h2>
+
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+        </div>
+    </div>
+    <div class="contant">
+        <div class="container">
+            <div class="row">
+                <div class="span9">
+                    <div class="featured-courses">
+                        <h2>Browsing All Courses</h2>
+
+                        <%- include('course/filter.ejs') %>
+                        <div class="row">
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                            <%- include('course/course.ejs') %>
+                        </div>
+                        <div class="pagination">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="span3">
+                    <%- include('course/aside.ejs') %>
+                </div>
+            </div>
+        </div>
+        <section class="follow-us">
+            <%- include('commons/followus.ejs') %>
+        </section>
+    </div>
+    <footer>
+        <%- include('commons/footer.ejs') %>
+    </footer>
+</div>
+<%- include('commons/tail.ejs') %>
+</body>
+</html>
