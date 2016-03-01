@@ -1,7 +1,6 @@
 // The Controller for the app commons HTTP actions
 
 var db = require('../database/main');
-var dbTest = require('../database/test');
 
 exports.login = function(req,res){
     // the HTTP login POST's accessible for both the Teacher and the Student

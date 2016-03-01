@@ -15,3 +15,4 @@ var teacherSignUP = {};
 teacherSignUP.verify = "select * from professeur p where p.email = ? ";
 teacherSignUP.register = "insert into professeur values (null,?,?,?,?,?) ";
 exports.teacherSignUP = teacherSignUP;
+

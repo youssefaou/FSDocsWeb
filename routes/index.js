@@ -12,8 +12,8 @@ router.get('/',function(req,res){
 
 router.get('/test',utils.isLoggedIn,function(req,res){
     res.send('You \'re Logged in Mr : '+ req.session.user.fname);
+    /* Just For Testing Session Existence */
 });
-
 
 router.get('/login',function(req,res){
     // the "err" string is used to prevent the user of the error he made filling the form
@@ -22,9 +22,15 @@ router.get('/login',function(req,res){
 
 router.post('/login',indexController.login);
 
-
 router.get('/listTeachers',testController.listTeachers);
 
 router.get('/listStudents',testController.listStudents);
+
+router.get('/listCourses',testController.listCourses);
+
+router.get('/listParts',testController.listParts);
+
+router.get('/listChapters',testController.listChapters);
+
 
 module.exports = router;

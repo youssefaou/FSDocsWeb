@@ -6,7 +6,7 @@
 
 var mysql = require('mysql');
 var queries = require('./queries');
-var config = require('../config/database').dev;
+var config = require('../config/database').production;
 // ps : you can toggle between the dev mode / production mode
 
 var connection = null; // the connection object
