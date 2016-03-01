@@ -37,8 +37,8 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1122">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="12" />
+            <state vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="1122">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -74,13 +74,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zurb-fondation.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zurb-fondation.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/zurb-fondation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3510848" vertical-offset="898" max-vertical-offset="112310">
+            <state vertical-scroll-proportion="0.0" vertical-offset="898" max-vertical-offset="112310">
               <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
               <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <caret line="57" column="16" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courses.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/courses.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6805556" vertical-offset="930" max-vertical-offset="1650">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="3762">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -133,9 +153,9 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/commons/header.ejs" />
         <option value="$PROJECT_DIR$/views/course/course.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/course/aside.ejs" />
         <option value="$PROJECT_DIR$/public/css/zurb-fondation.css" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -326,7 +346,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../design" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="as&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/sign/aside.ejs&#10;c&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/routes/course.js&#10;qu&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/queries.js&#10;stu&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;index&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/index.js&#10;sess&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/utils/session.js&#10;main&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/main.js&#10;stude&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;app&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/app.js&#10;pack&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/package.json&#10;teach&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;teac&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;test&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/test.js&#10;student&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;cou&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/course.js&#10;tea&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;log&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/login.ejs&#10;LOGIN&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/login.ejs&#10;LONG&#9;null&#9;null&#10;ww&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/FSDocs/bin/www" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/app.js&#10;as&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/sign/aside.ejs&#10;c&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/routes/course.js&#10;qu&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/queries.js&#10;stu&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;index&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/index.js&#10;sess&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/utils/session.js&#10;main&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/main.js&#10;stude&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;pack&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/package.json&#10;teach&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;teac&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;test&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/test.js&#10;student&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/controller/student.js&#10;cou&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/course.js&#10;tea&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/database/teacher.js&#10;log&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/login.ejs&#10;LOGIN&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/app/views/login.ejs&#10;LONG&#9;null&#9;null&#10;ww&#9;FILE&#9;file://E:/WORK/FSDM/PROJETTUTORE/FSDocs/bin/www" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -431,7 +451,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26161137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="750" y="35" width="1338" height="690" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26161137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="750" y="35" width="1338" height="690" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -644,6 +664,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/courses.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.935484" vertical-offset="73" max-vertical-offset="1650">
-          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/course/filter.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.032259" vertical-offset="0" max-vertical-offset="660">
@@ -721,13 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="616">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="3366">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -787,22 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1027">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/commons/tail.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="286">
@@ -829,10 +820,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/zurb-fondation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3510848" vertical-offset="898" max-vertical-offset="112310">
+        <state vertical-scroll-proportion="0.0" vertical-offset="898" max-vertical-offset="112310">
           <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <caret line="57" column="16" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1317" max-vertical-offset="3762">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/course.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1027">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/courses.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6805556" vertical-offset="930" max-vertical-offset="1650">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>

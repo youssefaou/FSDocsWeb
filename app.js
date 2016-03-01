@@ -50,6 +50,15 @@ app.get('*/css/bootstrap-responsive.css', function(req, res){
 app.get('*/css/font-awesome.min.css', function(req, res){
   res.sendFile(__dirname + '/public/css/font-awesome.min.css');
 });
+app.get('*/css/font-awesome.min.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/font-awesome.min.css');
+});
+app.get('*/css/jquery.bxslider.css', function(req, res){
+  res.sendFile(__dirname + '/public/css/jquery.bxslider.css');
+});
+app.get('*/css/owl.carousel.css', function(req, res){
+res.sendFile(__dirname + '/public/css/owl.carousel.css');
+});
 /*----------------------JS--------------------------------------*/
 app.get('*/js/jquery-1.11.0.min.js', function(req, res){
   res.sendFile(__dirname + '/public/js/jquery-1.11.0.min.js');
@@ -81,6 +90,15 @@ app.get('*/images/cate-bg.png', function(req, res){
 });
 app.get('*/images/footer-bg.png', function(req, res){
   res.sendFile(__dirname + '/public/images/footer-bg.png');
+});
+app.get('*/images/pettern.png', function(req, res){
+  res.sendFile(__dirname + '/public/images/pettern.png');
+});
+app.get('*/images/course.jpg', function(req, res){
+  res.sendFile(__dirname + '/public/images/course.jpg');
+});
+app.get('*/images/topic.jpg', function(req, res){
+  res.sendFile(__dirname + '/public/images/topic.jpg');
 });
 app.get('*/images/pettern.png', function(req, res){
   res.sendFile(__dirname + '/public/images/pettern.png');
